@@ -1,0 +1,28 @@
+canvas.identicon{
+    border-radius: 20px;
+    padding: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+.address-container{
+    display: flex;
+    background: #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.address-container2{
+    padding: 20px;
+}
+
+.gen-blockies{
+    display: flex;
+    align-items: center;
+}
+
+.container-blockies-box{
+    width: 32px;
+    height: 32px;
+}

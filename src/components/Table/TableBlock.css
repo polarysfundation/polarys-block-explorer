@@ -1,0 +1,285 @@
+.container-table2 {
+  width: 620px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  height: 50%;
+  background: #ffffff;
+}
+
+.container-table {
+  padding: 5px 20px;
+  padding-right: 10px;
+}
+
+.table-h1 {
+  font-size: calc(100% + 5%);
+  padding: 10px 20px;
+  margin: 5px;
+
+}
+
+.container-table6 {
+  display: flex;
+  padding-left: 10px;
+}
+
+.container-table-block {
+  background-color: rgba(49, 23, 221, 0.3);
+  color: rgba(49, 23, 221, 0.3);
+  border-radius: 10px;
+  font-size: calc(100% - 5%);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-table-block1 {
+  padding: 20px;
+  font-size: calc(100% - 5%);
+}
+
+.container-table4 {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.container-table5 {
+  padding-left: 40px;
+}
+
+.table-hr {
+  margin: 1px;
+}
+
+.container-table7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-table-miner {
+  font-size: calc(100% - 5%);
+}
+
+.container-table-block1 {
+  font-size: calc(100% - 5%);
+  padding: 0px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-table-blockdata {
+  height: 400px;
+  overflow: auto;
+
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #d6d6d6 #ffffff;
+  
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: hsl(0 0% 100% / 0.1);
+  background-color: blur(0.4rem);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+::-webkit-scrollbar-thumb {
+  background: #949494;
+  border: 0px none #ffffff;
+  border-radius: 41px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #929292;
+}
+::-webkit-scrollbar-track {
+  background: #828282;
+  border: 4px none #ffffff;
+  border-radius: 49px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+.block-h1 {
+  color: rgb(96, 121, 154);
+  font-size: calc(100% - 20%);
+  font-weight: 400;
+  padding: 15px 15px;
+  margin: 0px;
+}
+
+.p-tblock1 {
+  font-size: calc(100% - 15%);
+  padding: 2px;
+  margin: 0px;
+  color: gray;
+}
+
+.p-tblock2 {
+  font-size: calc(100% - 15%);
+  padding: 2px;
+  margin: 0px;
+  color: black;
+}
+
+.a-blocks1 {
+  text-decoration: none;
+  color: black;
+}
+
+.a-blocks1:hover {
+  color: gray;
+}
+
+
+.container-tabletx6 {
+  display: flex;
+  padding-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.container-tabletx-block1,
+.hashblock {
+  font-size: calc(100% - 15%);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 120px;
+  display: inline-block
+}
+
+.container-tabletx-miner2 {
+  padding: 0px 5px;
+  font-size: calc(100% - 15%);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  display: inline-block
+}
+
+.container-tabletx-block3 {
+  padding: 0px 5px;
+  font-size: calc(100% - 15%);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 180px;
+  display: inline-block
+}
+
+.container-table-to {
+  display: flex;
+  align-items: center;
+}
+
+.u-label--badge-in {
+  position: relative;
+  padding-left: 1.15rem;
+  letter-spacing: .8px;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.u-label--badge-in:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  border-top: 0.7rem solid transparent;
+  border-bottom: 0.7rem solid transparent;
+  border-left: 0.7rem solid #fff;
+}
+
+[class*=badge-] {
+  z-index: 3;
+}
+
+.u-label {
+  display: inline-block;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.3;
+  padding: 0.625rem 1.125rem;
+  border-radius: 6.1875rem;
+  transition: .2s ease-in-out;
+}
+
+.u-label--xs {
+  font-weight: 300;
+  font-size: .65625rem;
+  line-height: 1.7;
+  padding: 0.2rem 0.5rem;
+}
+
+.u-label--secondary {
+  color: #77838f;
+  background-color: rgba(119, 131, 143, .1);
+}
+
+.u-label--xs {
+  font-weight: 500;
+}
+
+.container-tabletx-block2 {
+  padding: 10px;
+}
+
+.container-tabletx7 {
+  width: 100%;
+}
+
+.container-badge {
+  padding: 3px 20px;
+}
+
+.container-tabletx-block2 {
+  display: flex;
+  align-items: center;
+}
+
+.container-txns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

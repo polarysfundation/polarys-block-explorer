@@ -1,0 +1,112 @@
+.container-tabletx2 {
+    background: white;
+    width: 620px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    height: 50%;
+}
+
+.container-tabletx {
+    padding: 5px 20px;
+    padding-left: 10px;
+}
+
+.tabletx-h1 {
+    font-size: calc(100% + 5%);
+    padding: 10px 20px;
+    margin: 5px;
+
+}
+
+.container-tabletx6 {
+    display: flex;
+    padding-left: 10px;
+}
+
+.container-tabletx-block {
+    background-color: rgba(49, 23, 221, 0.3);
+    color: rgba(49, 23, 221, 0.3);
+    border-radius: 10px;
+    font-size: calc(100% - 5%);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-tabletx-block1 {
+    padding: 20px;
+    font-size: calc(100% + 10%);
+}
+
+.container-tabletx4 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.container-tabletx5 {
+    padding-left: 40px;
+}
+
+.tabletx-hr {
+    margin: 1px;
+}
+
+.container-tabletx7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tabletx-miner {
+    font-size: calc(100% - 5%);
+}
+
+.container-tabletx-block1 {
+    font-size: calc(100% - 5%);
+    padding: 0px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-tabletx-blockdata {
+    height: 400px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: auto;
+
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #d6d6d6 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+
+.block-h1 {
+    color: rgb(96, 121, 154);
+    font-size: calc(100% - 20%);
+    font-weight: 400;
+    padding: 15px 15px;
+    margin: 0px;
+}

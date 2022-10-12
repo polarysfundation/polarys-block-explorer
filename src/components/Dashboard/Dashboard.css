@@ -1,0 +1,25 @@
+.container-dash{
+    padding: 10px 20px;
+    padding-top: 100px;
+}
+
+.container-dash1{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container-dash3{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.v-hr{
+    height: 150px;
+    width: 0.5px;
+}
+
+
