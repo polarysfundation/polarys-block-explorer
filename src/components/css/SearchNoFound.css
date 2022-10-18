@@ -1,0 +1,42 @@
+.search-box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-logo{
+    width: calc(100% - 70%);
+}
+
+.search-p{
+    font-size: calc(100% + 50%);
+    color: #434343;
+    padding: 10px;
+}
+
+.search-p2{
+    font-size: calc(100% + 30%);
+    color: #434343;
+    padding: 10px;
+}
+
+.search{
+    font-size: calc(100% + 150%);
+    color: #000000;
+}
+
+.search-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box1{
+    background:#ffffff;
+    border-radius: 15px;
+    
+}
+
+.search-box{
+    padding: 15px;
+}

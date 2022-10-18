@@ -30,7 +30,7 @@ const LatestTxns = () => {
     const getTxnsData = [];
 
 
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 1000; i++) {
       
       const blockData = await web3.eth.getBlock(latestBlockNumber - i);
 
@@ -83,6 +83,8 @@ const LatestTxns = () => {
 
 
   //const getData = localStorage.setItem("data", txnsTen)
+
+  console.log(txnsTen)
 
   return (
     <div>

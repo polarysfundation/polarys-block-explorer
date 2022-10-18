@@ -6,7 +6,20 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { web3 } from '../../Web3/NodeProvider'
 import './TableTransactions/TableTxns.css'
+import bigGasLimitTransactionFormatter from '../../Web3/bigGasLimitTransactionFormatter';
 
+
+
+
+web3.extend({
+  methods: [{
+    name: 'getBigGasLimitTransaction',
+    call: 'eth_getTransactionByHash',
+    params: 1,
+    inputFormatter: [null],
+    outputFormatter: bigGasLimitTransactionFormatter
+  }]
+});
 
 const Transactions = () => {
 
@@ -26,7 +39,7 @@ const Transactions = () => {
       const txnsData = async () => {
         for (var i = 0; i < txnAccount; i++) {
 
-          const txns = await web3.eth.getTransaction(block.transactions[i]);
+          const txns = await web3.getBigGasLimitTransaction(block.transactions[i]);
 
           const value = Intl.NumberFormat('es-MX').format(web3.utils.fromWei(txns.value, 'ether'))
           const txnFee = txns.gas * txns.gasPrice
