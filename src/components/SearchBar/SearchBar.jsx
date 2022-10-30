@@ -36,16 +36,16 @@ const SearchBar = () => {
   const handleSubmit = (e) => {
     if (query === "" ) {
       e.preventDefault();
-      return setInterval(window.location.reload(new history(`/`)), 0);
+      return window.location.reload(new history(`/`));
     } if (web3.utils.isAddress(query || query == query)) {
       e.preventDefault();
-      return setInterval(window.location.reload(new history(`/address/${query}`)), 0);
+      return window.location.reload(new history(`/address/${query}`));
     } if (Number(query) || Number.isInteger(query)) {
       e.preventDefault();
-      return setInterval(window.location.reload(new history(`/block/${query}`)), 0);
+      return window.location.reload(new history(`/block/${query}`));
     } else {
       setQuery(error);
-      return setInterval(window.location.reload(new history(`/search=${query}`)), 0);
+      return window.location.reload(new history(`/search=${query}`));
     }
   };
 
@@ -88,7 +88,7 @@ const SearchBar = () => {
             return post;
           }
         })
-          .slice(1, 10)
+          .slice(1, 5)
           .map((post) => (
             <div className="result-box" key={post.id}>
               <a href={`/address/${post.Address}`} className="address-link">
